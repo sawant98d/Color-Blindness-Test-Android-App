@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/slideImage"
+        android:layout_width="264dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/slideHeading"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:textColor="#fff"
+        android:text="What is Color Blindness ?"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/slideDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:padding="40dp"
+        android:text="The condition is often inherited. Other causes include certain eye diseases and medication. More men than women are affected.
+Colour blindness usually involves the inability to distinguish between shades of red and green."
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
